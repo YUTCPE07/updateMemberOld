@@ -1,0 +1,82 @@
+body {
+	font-family: 'Prompt', sans-serif;
+	min-width: 425px;
+
+}
+
+.h3 {
+	font-weight: 800;
+}
+.h4 {
+	font-weight: 1000;
+}
+.positionWellcome {
+	font-size: 28px;
+	/*position:absolute;*/
+	/*top: 300px;*/
+}
+.txt_wellcome {
+	display: block;
+	text-align: justify;
+    text-justify: inter-word;
+    font-weight: bold;
+}
+.text-shadow {
+	text-shadow: 2px 2px 1px grey;
+}
+
+.text-red {
+	color: #e94d4e;
+}
+
+.text-green {
+	color: #4aaea2;
+}
+
+.text-yellow {
+	color: #ffae38;
+}
+
+.bg-red {
+	background-color: #e94d4e;
+}
+
+.bg-green {
+	background-color: #4aaea2;
+}
+
+.bg-yellow {
+	background-color: #ffae38;
+}
+
+.bg-blue {
+	background-color: blue;
+}
+
+.p-1 {
+	padding: 10px;
+}
+
+.p-3 {
+	padding: 30px;
+}
+
+.p-5 {
+	padding: 50px;
+}
+
+.m-1 {
+	margin: 10px;
+}
+
+.m-3 {
+	margin: 30px;
+}
+
+.m-5 {
+	margin: 50px;
+}
+
+.w-100 {
+	width: 100%;
+}
