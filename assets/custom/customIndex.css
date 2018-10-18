@@ -1,22 +1,60 @@
+/** {
+    box-sizing: border-box;
+}*/
 body {
 	font-family: 'Prompt', sans-serif;
-	min-width: 425px;
-
+	min-width: 320px;
+	font-size:25px;
+}
+img {
+	width: 100%;
+}
+.content2 {
+	background-image: url("../image/bg (1).png");
+	background-size: 100% 100%;
+}
+.peploe>img {
+	width: 100%;
 }
 
-.backgroundYoutube {
-	background-image: url("../image/background01.png");
-}
-.backgroundYoutube>div>div>div {
-	margin: 50px;
-	border: 5px solid grey;
-	padding-right: unset; 
-     padding-left: unset; 
+
+.content3_barnd{
+	padding: 10px;
 }
 
+.text-shadow {
+	text-shadow: 2px 2px 1px grey;
+}
 
+.bg-shadow {
+	box-shadow: 2px 2px 1px grey;
+}
 
-.h3 {
+.text-red {
+	color: #e94d4e;
+}
+
+.text-green {
+	color: #4aaea2;
+}
+
+.text-yellow {
+	color: #ffae38;
+}
+
+.bg-red {
+	background-color: #e94d4e;
+}
+
+.bg-green {
+	background-color: #4aaea2;
+}
+
+.bg-yellow {
+	background-color: #ffae38;
+}
+
+/*.h3 {
 	font-weight: 800;
 }
 .h4 {
@@ -24,8 +62,7 @@ body {
 }
 .positionWellcome {
 	font-size: 28px;
-	/*position:absolute;*/
-	/*top: 300px;*/
+
 }
 .txt_wellcome {
 	display: block;
@@ -91,4 +128,4 @@ body {
 
 .w-100 {
 	width: 100%;
-}
+}*/

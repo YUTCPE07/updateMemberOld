@@ -1,0 +1,66 @@
+@media only screen and (min-width: 1280px) {
+
+	.content2>div{
+		/*margin: 100px;*/
+		/*width: 33.33333333333333%;*/
+	
+	}
+	.content2>div>h2{
+		margin-bottom: 30px;
+	}
+	.content2>iframe{
+		/*max-width: 500px;*/
+		/*width: 100%;*/
+	}
+	.peploe ,.cartoonDog{
+		display: block;
+	}
+	.content3.bg-green>.cartoonDog{
+		left: 50%;
+		position: absolute;
+		width:20%;
+		/*top: 600px;*/
+		/*bottom: 0%;*/
+		/*left: 10%;*/
+	}
+	.content3.bg-green>.cartoonDog > img {
+		top:150px;
+		position: relative;
+		left: -50%;
+	}
+	.content3.bg-green>.cartoonDog > div{ /*ทำไมคุณต้องใช้ memberin desktop*/
+		position: absolute;
+		left: -85px; /*ขนาด px .cartoonDog > div /2 = num : left:-num; */
+		top: 120%;
+		font-weight: bold;
+	}
+	.content3 {
+		background-size: 100% 100%;
+		padding-bottom: 40px;
+		padding-top: 30px;
+	}
+	.content3_head_view_sm {
+		display: none;
+	}
+/*	.borderYoutube {
+		background-color: red;
+		display: block;
+		position: relative;
+		width: 120%;
+		
+	}*/
+	/*desktop*/
+/*	.txt_wellcome {
+		left: 140px;
+		color: red;
+	}*/
+
+	/*.v_desktop{
+		display: block;
+	}
+
+	.v_mobile{
+		display: none;
+	}*/
+
+}
