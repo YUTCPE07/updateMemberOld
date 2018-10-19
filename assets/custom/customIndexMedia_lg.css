@@ -1,4 +1,5 @@
-@media only screen and (min-width: 1280px) {
+/*@media only screen and (min-width: 1280px) {*/
+@media only screen and (min-width: 1200px) {
 
 	.content2>div{
 		/*margin: 100px;*/
@@ -15,7 +16,7 @@
 	.peploe ,.cartoonDog{
 		display: block;
 	}
-	.content3.bg-green>.cartoonDog{
+	.content3>.cartoonDog{
 		left: 50%;
 		position: absolute;
 		width:20%;
@@ -23,12 +24,13 @@
 		/*bottom: 0%;*/
 		/*left: 10%;*/
 	}
-	.content3.bg-green>.cartoonDog > img {
+	.content3>.cartoonDog > img {
 		top:150px;
+		max-width: 271px;
 		position: relative;
 		left: -50%;
 	}
-	.content3.bg-green>.cartoonDog > div{ /*ทำไมคุณต้องใช้ memberin desktop*/
+	.content3>.cartoonDog > div{ /*ทำไมคุณต้องใช้ memberin desktop*/
 		position: absolute;
 		left: -85px; /*ขนาด px .cartoonDog > div /2 = num : left:-num; */
 		top: 120%;
@@ -42,6 +44,32 @@
 	.content3_head_view_sm {
 		display: none;
 	}
+
+	.content4 { 
+		background-image: url("../image/bg (3).png");
+		/*4000px 2250px;*/
+		background-size: 100% 100%;
+		height: 800px;
+	}
+
+	.content4 > div > div.col-lg-5 {
+		width: 50%;
+		margin-left: 50%;
+	}
+
+	.content4 > div > h1 {
+		padding-left: 15px;
+		margin-left: 50%;
+	}
+
+	.content4 > div > a > img.regiter {
+		width: 15%;
+		margin-top: 50px;
+		margin-left: 50%;
+		margin-right: auto;
+	}
+
+
 /*	.borderYoutube {
 		background-color: red;
 		display: block;

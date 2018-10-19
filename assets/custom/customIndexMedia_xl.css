@@ -1,0 +1,60 @@
+@media only screen and (min-width: 2560px) {
+	body { 
+		font-size:50px; 
+	}
+	.col-lg-5 {
+		width: 100%;
+		margin-left: 35.66666667%;
+	}
+	.content2 > div > h2 {
+		font-size:85px;
+	}
+
+	.content3 {
+
+	}
+	.content3 > div.cartoonDog > img {
+		display: none;
+	}
+
+	.content3 > div.cartoonDog > div{
+		top: 500px;
+		left: -30%;
+		padding: 1px 20px 1px;
+		display: inline-block;
+		border-radius: 3rem;
+		background-color: white;
+		/*font-weight: bold;*/
+	}
+	.content3 > div.row > div > div > div.input2 {
+		font-size:40px;
+	}
+	.content3 > div.row{
+		/*max-width: 1280px;
+		width: 100%;
+	    margin-right: auto;
+	    margin-left: auto;*/
+	}
+	.content4 > div > h1 {
+		font-size:85px;
+	}
+	.content4> div > div {
+		display: grid;
+  		grid-template-columns: 80px auto;
+	}
+
+	.content4 > div > div> div.num > img {
+		max-width: 135px;
+		width: 100%;
+	}
+
+	.content4.text-green > div > div> div.text {
+		margin-left: 20px;
+	}
+
+	.content4> div > div >div.text > img {
+		max-width: 359px;
+		width: 50%;
+	}
+
+}

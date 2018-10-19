@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="assets/custom/customIndex.css">
 <link rel="stylesheet" type="text/css" href="assets/custom/customIndexMedia_sm.css">
 <link rel="stylesheet" type="text/css" href="assets/custom/customIndexMedia_lg.css">
+<link rel="stylesheet" type="text/css" href="assets/custom/customIndexMedia_xl.css">
 
 </head>
 
@@ -47,7 +48,7 @@
 
 		</div>
 		<div class="peploe col-lg-4 col-lg-offset-7">
-			<img class="" src="assets/image/peploe.png">
+			<img class="" src="assets/image/pepole.png">
 		</div>
 		
 	</div>
@@ -111,14 +112,17 @@
 	<div class="row">
 		<h1>วิธีลงทะเบียน</h1>
 		<div class="col-lg-5 col-lg-offset-5">
+
 			<div class="num">
 				<img src="assets/image/button (1).png">
 			</div>
 			<div class="text">
-				ดาวโหลด MemberIn ผ่าน 
-				<img src="assets/image/appleStore.png">
-				หรือ
-				<img src="assets/image/googlePlay.png">
+				ดาวโหลด MemberIn ผ่าน
+				<div>
+					<img src="assets/image/appleStore.png">
+					หรือ
+					<img src="assets/image/googlePlay.png">
+				</div>
 			</div>
 		</div>
 		<div class="col-lg-5 col-lg-offset-5">
@@ -146,7 +150,11 @@
 			</div>
 		</div>
 	</div>
-	
+	<div class="row text-center">
+		<a href="#">
+			<img class="regiter" src="assets/image/regiter.png"><br>	
+		</a>
+	</div>
 </div>
 
 <script src="assets/jquery/jquery.min.js"></script>
