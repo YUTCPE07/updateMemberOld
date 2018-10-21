@@ -17,50 +17,40 @@
 
 </head>
 
-<body>
+<body class="fade-out">
 
-<div class="content1  ">
+<div class="content1">
 	<img class="w-100 imgWellcome01" src="assets/image/02.png" alt="First slide">
-	<!-- <img class="imgWellcome_qrCode" src="assets/image/QR_Code MemberIn.jpg" alt="First slide"> -->
-	<!-- <img class="d-block w-100 v_mobile" src="assets/image/01_mobile.png" alt="First slide"> -->
-	<div class="row positionWellcome">
-		<div class="col-lg-7 offset-lg-2 col-xl-9 offset-xl-2">
-			<div class="row">
-				<div class="txt_wellcome text-justify">
-					<strong class="h1 text-shadow">MemberIn</strong><br>
-					เป็น Platform ใหม่ที่รวมเเหล่งกิจกรรมดี
-					ที่จะทำให้คุณได้ 
-					<strong class="h3 text-red text-shadow">กิน</strong>
-					<strong class="h3 text-green text-shadow">เที่ยว</strong>
-					<strong class="h3 text-yellow text-shadow">ช้อป</strong>
-					ได้อย่่างสะดวกสบายเเละทราบสิทธิพิเศษได้ทุกที่ทุกเวลา
-					
-				</div>
-				<div class="textAbout">
-					<small>www.memberin.com</small>
-					<img class="ml-5"src="assets/image/line.png"><small class="ml-1">@memberin</small>
-					<img class="ml-5"src="assets/image/phone.png"><small class="ml-1">02 235 8054</small>
-				</div>
-			</div>
-			<img class="imgWellcome_buy" src="assets/image/buy.png" alt="First slide">
+	<div class="positionWellcome">
+		<div class="txt_wellcome text-justify">
+			<strong class="h1 text-shadow">MemberIn</strong><br>
+			เป็น Platform ใหม่ที่รวมเเหล่งกิจกรรมดี ๆ ที่จะทำให้คุณได้ 
+			<strong class="h3 text-red text-shadow">กิน</strong>
+			<strong class="h3 text-green text-shadow">เที่ยว</strong>
+			<strong class="h3 text-yellow text-shadow">ช้อป</strong>
+			ได้อย่างสะดวกสบายเเละทราบสิทธิพิเศษได้ทุกที่ทุกเวลา
 		</div>
+		<div class="textAbout">
+			<small>www.memberin.com</small>
+			<img class="ml-5"src="assets/image/line.png"><small class="ml-1">@memberin</small>
+			<img class="ml-5"src="assets/image/phone.png"><small class="ml-1">02 235 8054</small>
+		</div>
+		<img class="imgWellcome_buy" src="assets/image/buy.png" alt="First slide">
 	</div>
 </div>
 <div class="content2">
 	<div class="row">
 		<!-- <img class="bg" src="assets/image/bg (1).png"> -->
 		<h2 class="ml-auto mr-auto">ประสบการณ์ดี ๆ จากลูกค้าที่เคยใช้ <strong class="text-green text-shadow">MemberIn</strong></h2>
-		<div class="col-lg-6 offset-lg-3 ">
+		<div class="col-lg-6 offset-lg-3 col-xl-">
 			<div class="embed-responsive embed-responsive-16by9 bg-shadow">
 				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ibavfrxEPs8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
 			<!-- <img class="borderYoutube" src="assets/image/borderYoutube.png"> -->
-
 		</div>
 		<div class="peploe col-lg-4 offset-lg-7">
 			<img class="" src="assets/image/pepole.png">
 		</div>
-		
 	</div>
 </div>
 

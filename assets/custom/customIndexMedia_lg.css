@@ -7,48 +7,55 @@
 	}
 	.content1 > img.imgWellcome01,
 	.content1 > img.imgWellcome_qrCode,
-	.content1 > div > div > img.imgWellcome_buy,
+	.content1 > div > img.imgWellcome_buy,
 	.peploe ,.cartoonDog,
-	.content1 > div > div > div > div.textAbout 
+	.content1 > div > div.textAbout 
 	{
 		display: block;
 	}
 
+	.content1 {
+		text-align: left;
+	}
 
 	.content1 > div.positionWellcome {
 		position: absolute;
-    	top: 100%;
-    	width:100%;
+    	width:65%;
+    	left: 15vw;
+    	top:25vw;
+    	font-size: 1.5vw;
 
 	}
+	.content1 > div > div.txt_wellcome >.h1.text-shadow {
+		font-size: 2.5vw;
+	}
 
-
-	.content1 > img.imgWellcome_qrCode {
+	/*.content1 > img.imgWellcome_qrCode {
 		max-width: 600px;
 		position: absolute;
     	width: 10%;
     	right: 10%;
     	top: 30%;
+	}*/
+
+	.content1 > div > div.textAbout > small {
+		font-size: 1vw;
 	}
 
-	.content1 > div > div > div > div.textAbout > small {
-		font-size: 15px;
-	}
-
-	.content1 > div > div > div > div.textAbout > img {
+	.content1 > div > div.textAbout > img {
 		max-width: 83px;
-		width: 5%;
-
+		width: 2vw;
 	}
 
-	.content1 > div > div > img.imgWellcome_buy {
+	.content1 > div > img.imgWellcome_buy {
 		max-width: 625px;
 		width: 25%;
-		margin-top: 100px;
+		margin-top: 50px;
+		margin-bottom: 50px;
 		cursor: pointer;
 	}
 
-	.content1 > div > div > img.imgWellcome_buy:hover {
+	.content1 > div > img.imgWellcome_buy:hover {
 		transform: scale(1.1);
 	}
 
@@ -100,6 +107,7 @@
 		/*4000px 2250px;*/
 		background-size: 100% 100%;
 		height: 800px;
+		max-width: 4000px;
 	}
 
 	.content4 > div > div.col-lg-5 {
