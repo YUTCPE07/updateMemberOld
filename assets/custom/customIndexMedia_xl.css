@@ -1,22 +1,68 @@
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 1921px) {
 	body { 
-		font-size:50px; 
+		font-size:40px; 
 	}
+	div.backToTop div > h4{
+		font-size: 35px;
+	}
+	div.backToTop.text-right > div > h4 > i {
+		padding-top: 5px;
+	}
+	div.backToTop {
+		height: 70px;
+	}
+	footer > div > div > div > div > a{
+		font-size: 25px;
+	}
+
+
+	.content1 > img.imgWellcome01,
+	.content1 > img.imgWellcome_qrCode,
+	.content1 > div > div > img.imgWellcome_buy,
+	.peploe ,
+	.content1 > div > div > div > div.textAbout 
+	{
+		display: block;
+	}
+
+	.content1 {
+		margin-bottom: 15%;
+	}
+	.content1 > div > div > div > div.txt_wellcome,.content1 > div > div > div > div.txt_wellcome>strong {
+		font-size: 40px;
+	}
+
+	.content1 > div > div > div > div.textAbout > small {
+		font-size: 20px;
+	}
+
+	.content1 > div.positionWellcome {
+    	top: 50%;
+	}
+
+	.content3 > div.cartoonDog > img ,
+	.content3 > div.content3_head_view_sm
+	{
+		display: none;
+	}
+
 	.col-lg-5 {
 		width: 100%;
 		margin-left: 35.66666667%;
 	}
+
+
+
 	.content2 > div > h2 {
-		font-size:85px;
+		font-size:40px;
 	}
+
+
 
 	.content3 {
 
 	}
-	.content3 > div.cartoonDog > img {
-		display: none;
-	}
-
+	
 	.content3 > div.cartoonDog > div{
 		top: 500px;
 		left: -30%;
@@ -27,7 +73,7 @@
 		/*font-weight: bold;*/
 	}
 	.content3 > div.row > div > div > div.input2 {
-		font-size:40px;
+		font-size:20px;
 	}
 	.content3 > div.row{
 		/*max-width: 1280px;
@@ -35,12 +81,20 @@
 	    margin-right: auto;
 	    margin-left: auto;*/
 	}
+	.content4 {
+		height: unset;
+	}
+
 	.content4 > div > h1 {
-		font-size:85px;
+		font-size:40px;
 	}
 	.content4> div > div {
 		display: grid;
   		grid-template-columns: 80px auto;
+	}
+
+	.content4 > div > div > div.text {
+		font-size: 25px;
 	}
 
 	.content4 > div > div> div.num > img {
@@ -56,5 +110,7 @@
 		max-width: 359px;
 		width: 50%;
 	}
+
+
 
 }

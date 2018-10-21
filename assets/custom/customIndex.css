@@ -5,10 +5,27 @@ body {
 	font-family: 'Prompt', sans-serif;
 	min-width: 320px;
 	font-size:25px;
+
 }
 img {
 	width: 100%;
 }
+
+.backToTop {
+	height: 40px;
+	background-color: #f44e4e;
+}
+.backToTop>div>h4{
+	color: white;
+	cursor: pointer;
+}
+
+
+
+.form-rounded {
+    border-radius: 1rem;
+}
+
 .content2 {
 	background-image: url("../image/bg (1).png");
 	background-size: 100% 100%;

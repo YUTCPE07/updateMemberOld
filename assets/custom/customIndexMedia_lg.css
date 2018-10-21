@@ -1,7 +1,59 @@
 /*@media only screen and (min-width: 1280px) {*/
 @media only screen and (min-width: 1200px) {
 
+	footer > div > div > div > div > img.qr_code {
+		margin: 10px;
+		width: 25%;
+	}
+	.content1 > img.imgWellcome01,
+	.content1 > img.imgWellcome_qrCode,
+	.content1 > div > div > img.imgWellcome_buy,
+	.peploe ,.cartoonDog,
+	.content1 > div > div > div > div.textAbout 
+	{
+		display: block;
+	}
+
+
+	.content1 > div.positionWellcome {
+		position: absolute;
+    	top: 100%;
+    	width:100%;
+
+	}
+
+
+	.content1 > img.imgWellcome_qrCode {
+		max-width: 600px;
+		position: absolute;
+    	width: 10%;
+    	right: 10%;
+    	top: 30%;
+	}
+
+	.content1 > div > div > div > div.textAbout > small {
+		font-size: 15px;
+	}
+
+	.content1 > div > div > div > div.textAbout > img {
+		max-width: 83px;
+		width: 5%;
+
+	}
+
+	.content1 > div > div > img.imgWellcome_buy {
+		max-width: 625px;
+		width: 25%;
+		margin-top: 100px;
+		cursor: pointer;
+	}
+
+	.content1 > div > div > img.imgWellcome_buy:hover {
+		transform: scale(1.1);
+	}
+
 	.content2>div{
+		margin-top: 10%;
 		/*margin: 100px;*/
 		/*width: 33.33333333333333%;*/
 	
@@ -13,9 +65,7 @@
 		/*max-width: 500px;*/
 		/*width: 100%;*/
 	}
-	.peploe ,.cartoonDog{
-		display: block;
-	}
+	
 	.content3>.cartoonDog{
 		left: 50%;
 		position: absolute;
@@ -60,6 +110,10 @@
 	.content4 > div > h1 {
 		padding-left: 15px;
 		margin-left: 50%;
+	}
+
+	.content4 > div > a{
+		width: 100%;
 	}
 
 	.content4 > div > a > img.regiter {
