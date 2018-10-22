@@ -58,7 +58,11 @@
 	.content1 > div > img.imgWellcome_buy:hover {
 		transform: scale(1.1);
 	}
-
+	/*.content2 > div > div.col-lg-6.offset-lg-3> div {*/
+	.content2 > div > div.col-lg-6> div {
+		border: solid 5px #ffae38;
+		border-radius: 25px;
+	}
 	.content2>div{
 		margin-top: 10%;
 		/*margin: 100px;*/
@@ -105,8 +109,9 @@
 	.content4 { 
 		background-image: url("../image/bg (3).png");
 		/*4000px 2250px;*/
-		background-size: 100% 100%;
-		height: 800px;
+		/*background-size: 100% 100%;*/
+		background-size: cover;
+		height: 700px;
 		max-width: 4000px;
 	}
 

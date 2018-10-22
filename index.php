@@ -5,7 +5,7 @@
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 <meta name="viewport" content="width=device-width,
  height=device-height, initial-scale=1.0, minimum-scale=1.0">
-<title>Title of the document</title>
+<title>.:: MemberIn ::.</title>
 <link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -42,9 +42,9 @@
 	<div class="row">
 		<!-- <img class="bg" src="assets/image/bg (1).png"> -->
 		<h2 class="ml-auto mr-auto">ประสบการณ์ดี ๆ จากลูกค้าที่เคยใช้ <strong class="text-green text-shadow">MemberIn</strong></h2>
-		<div class="col-lg-6 offset-lg-3 col-xl-">
+		<div class="col-lg-6 offset-lg-3">
 			<div class="embed-responsive embed-responsive-16by9 bg-shadow">
-				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ibavfrxEPs8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ibavfrxEPs8?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
 			<!-- <img class="borderYoutube" src="assets/image/borderYoutube.png"> -->
 		</div>
@@ -110,7 +110,9 @@
 
 <div class="content4 text-green">
 	<div class="row">
-		<h1>วิธีลงทะเบียน</h1>
+		<div class="col-lg-5 offset-lg-5 head">
+			<h1>วิธีลงทะเบียน</h1>
+		</div>
 		<div class="col-lg-5 offset-lg-5">
 
 			<div class="num">
@@ -119,9 +121,9 @@
 			<div class="text">
 				ดาวโหลด MemberIn ผ่าน
 				<div>
-					<img src="assets/image/appleStore.png">
+					<img class="appleStore" src="assets/image/appleStore.png">
 					หรือ
-					<img src="assets/image/googlePlay.png">
+					<img class="googlePlay" src="assets/image/googlePlay.png">
 				</div>
 			</div>
 		</div>
@@ -190,16 +192,16 @@
         </div>
 
         <div class="col-lg-4 mb-5 mb-lg-0 text-center">
-        <h4 class="text-upperca2se mb-4">ติดต่อเรา</h4>
+        <h4 class="text-uppercase mb-4">ติดต่อเรา</h4>
         <div class="list-inline">
             
-          <img class="footerIconSocial mr-2 " src="assets/image/socials/006-mail.png">
+          <img class="footerIconSocial mail mr-2 " src="assets/image/socials/006-mail.png">
           <input type="text" class="form-control-sm form-rounded mt-3" disabled="disabled" 
             value="bd@memnerin.com">
         </div>
         <div class="list-inline text-center mt-2">
             
-            <img class="footerIconSocial mr-2" src="assets/image/socials/006-line.png">
+            <img class="footerIconSocial line mr-2" src="assets/image/socials/006-line.png">
           <input type="text" class="form-control-sm form-rounded mt-3" disabled="disabled" 
             value="@memberin">
         </div>
@@ -210,21 +212,23 @@
 
         <ul class="list-inline mb-0 mt-3 text-center">
           <li class="list-inline-item">
-            <img class="footerIconSocial" 
+            <!-- <img class="footerIconSocial facebook"  -->
+            <img class="footerIconSocial facebook" 
               src="assets/image/socials/004-facebook.png">
           </li>
           <li class="list-inline-item">
-            <img class="footerIconSocial" 
+            <!-- <img class="footerIconSocial youtube"  -->
+            <img class="footerIconSocial youtube" 
               src="assets/image/socials/003-youtube.png">
           </li>
-          <li class="list-inline-item">
-            <img class="footerIconSocial" 
+          <!-- <li class="list-inline-item">
+            <img class="footerIconSocial instagram" 
               src="assets/image/socials/002-instagram.png">
           </li>
           <li class="list-inline-item">
-            <img class="footerIconSocial" 
+            <img class="footerIconSocial google" 
               src="assets/image/socials/005-google-plus.png">
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>

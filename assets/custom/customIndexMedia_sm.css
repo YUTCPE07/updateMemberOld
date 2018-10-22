@@ -1,14 +1,20 @@
 
 @media only screen and (min-width: 0px) {
+	footer {
+		font-size: 20px;
+	}
 
 	footer > div > div > div > h4 {
-		font-size: 40px;
+		/*font-size: px;*/
 	}
+
+
 
 	footer > div > div > div > div > img.qr_code {
 		margin: 50px;
 		width: 50%;
-		max-width: 600px;
+		/*max-width: 600px;*/
+		max-width: 200px;
 	}
 
 	.content1 > img.imgWellcome01,
@@ -49,7 +55,8 @@
 	}
 
 	.content1 > div > img.imgWellcome_buy {
-		max-width: 625px;
+		/*max-width: 625px;*/
+		max-width: 202px;
 		width: 50%;
 		margin-top: 30px;
 		padding-left: auto;
@@ -75,11 +82,15 @@
 		padding-top: 40px;
 		font-size: 25px;
 	}
+	
 	.content2 > div > div.col-lg-6{
-		/*padding: 0px;*/
+		/*text-align: center;*/
 	}
 	.content2 > div > div.col-lg-6 > div{
+		margin-left: auto;
+		margin-right: auto;
 		box-shadow: unset;
+		max-width: 600px;
 	}
 
 
@@ -129,8 +140,11 @@
 		/*text-align: justify;
     	text-justify: inter-word;*/
 	}
+	.content4 > div >.col-lg-5.offset-lg-5.head {
+		display: inline;
+	}
 
-	.content4 > div > h1 {
+	.content4 > div > div > h1 {
 		padding-top: 20px;
 		padding-left: 15px;
 		padding-bottom: 15px;
@@ -157,8 +171,13 @@
     	transform: scale(1.1);
     	
 	}
-	.content4 > div > a>img.regiter {
-		max-width: 629px;
+	.content4 > div > a {
+		width: 100%;
+	}
+
+	.content4 > div > a >img.regiter {
+		/*max-width: 629px;*/
+		max-width: 202px;
 		width: 40%;
 		margin-left: auto;
 		margin-right: auto;
@@ -180,6 +199,11 @@
 	.footerIconSocial:hover {
 		transform: scale(1.1);
 	    cursor: pointer;
+	}
+
+	.footerIconSocial.mail,.footerIconSocial.line:hover {
+		transform: unset;
+	    cursor: unset;
 	}
 
 
