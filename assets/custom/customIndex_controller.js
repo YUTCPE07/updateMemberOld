@@ -8,11 +8,12 @@ $(".imgWellcome_buy").click(function(){
 });
 
 $(".appleStore").click(function(){
-	console.log('appleStore')
+	window.location.href = 'https://itunes.apple.com/th/app/memberln/id1099214746?mt=8';
+
 });
 
 $(".googlePlay").click(function(){
-	console.log('googlePlay')
+	window.location.href = 'https://play.google.com/store/apps/details?id=com.prompt.memberin';
 });
 
 $(".regiter").click(function(){
