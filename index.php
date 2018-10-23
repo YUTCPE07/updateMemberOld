@@ -20,7 +20,8 @@
 <body class="fade-out">
 
 <div class="content1">
-	<img class="w-100 imgWellcome01" src="assets/image/02.png" alt="First slide">
+	<img class="w-100 imgWellcome01" src="assets/image/02.png" alt="wellcome">
+	<img class="w-100 wellcome_sm" src="assets/image/wellcome_sm.jpg" alt="wellcome">
 	<div class="positionWellcome">
 		<div class="txt_wellcome text-justify">
 			<strong class="h1 text-shadow">MemberIn</strong><br>
