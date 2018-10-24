@@ -169,7 +169,7 @@
 </div>
 
 <footer class="footer text-light bg-dark pt-5 pb-5">
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <div class="col-lg-4 mb-5 mb-lg-0 ">
         <h4 class="text-uppercase mb-4 text-lg-left text-center ">เกี่ยวกับเรา</h4>

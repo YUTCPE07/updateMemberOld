@@ -1,15 +1,11 @@
 $("body").fadeIn();
 
 $(".imgWellcome_buy").click(function(){
-	console.log('buy')
-	
 	window.location.href = 'https://www.memberin.com/promotion.php';
-	
 });
 
 $(".appleStore").click(function(){
 	window.location.href = 'https://itunes.apple.com/th/app/memberln/id1099214746?mt=8';
-
 });
 
 $(".googlePlay").click(function(){
