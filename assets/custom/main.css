@@ -1,0 +1,106 @@
+
+
+.container {
+	width: 100%;
+	max-width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*head--------------------------*/
+	.head{
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.head-img {
+		/*height: 400px;*/
+	}
+
+	.head-qr {
+		width: 15%;
+		position: absolute;
+		top: 35%; 
+		right: 5%; 
+	}
+
+	.head-text {
+		width: 60%;
+		position: absolute;
+		top: 43%; 
+		left: 20%; 
+	}
+
+	.head-text > div:nth-child(1) { /*memberin*/
+		/*font-size: 62px;*/
+		font-size: 31px;
+		margin-bottom: 20px;
+	}
+
+	.head-text > div:nth-child(n+2) { /*text*/
+		/*font-size: 41px;*/
+		font-size: 20px;
+	}
+
+	.head-text-footer {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.head-text-footer > div {
+		display: inline;
+		margin-right: 20px;
+		/*font-size: 27px*/
+		font-size: 16px
+	}
+	.head-text-footer > div > img {
+		width: 3%;
+	}
+	.head-text-btnBuy {
+		width: 25%;
+	}
+/*end-head--------------------------*/
+
+/*content1--------------------------*/
+	.content1 {
+		position: relative;
+		text-align: center;
+		background-image: url("../image/bg (1).png");
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position:center top;
+
+	}
+	.content1-text {
+		margin-bottom: 20px;
+	}
+
+	.content1-text > div {
+		display: inline;
+		/*font-size: 48px*/
+		font-size: 24px
+	}
+
+
+	.content1-video {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		width: 50%;
+	}
+
+	.content1-imgPeploe {
+		position: relative;
+		margin-left: auto;
+		width: 50%;
+	}
+
+/*end-content1--------------------------*/
+
+/*content2--------------------------*/
+
+
+/*end-content2--------------------------*/
+
+
+

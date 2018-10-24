@@ -6,26 +6,80 @@
 <meta name="viewport" content="width=device-width,
  height=device-height, initial-scale=1.0, minimum-scale=1.0">
 <title>.:: MemberIn ::.</title>
-<link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<!-- <link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap.min.css"> -->
+<link href="https://fonts.googleapis.com/css?family=Prompt:100,300,400,500,700&amp;subset=thai" rel="stylesheet">
+<!-- <link rel="stylesheet" type="text/css" href="assets/custom/reset.css"> -->
+<link rel="stylesheet" type="text/css" href="assets/custom/varible.css">
+<link rel="stylesheet" type="text/css" href="assets/custom/main.css">
 
-<link rel="stylesheet" type="text/css" href="assets/custom/customIndex.css">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"> -->
+
+<!-- <link rel="stylesheet" type="text/css" href="assets/custom/customIndex.css">
 <link rel="stylesheet" type="text/css" href="assets/custom/customIndexMedia_sm.css">
 <link rel="stylesheet" type="text/css" href="assets/custom/customIndexMedia_lg.css">
-<link rel="stylesheet" type="text/css" href="assets/custom/customIndexMedia_xl.css">
+<link rel="stylesheet" type="text/css" href="assets/custom/customIndexMedia_xl.css"> -->
 
 </head>
 
 <body class="fade-out">
+<div class="container">
+	<div class="head">
+		<div class="head-img">
+			<img src="assets/image/02.png" >
+		</div>
+		<div class="head-qr">
+			<img src="assets/image/QR_Code MemberIn.jpg" >
+		</div>
+		<div class="head-text">
+			<div class="bold">MemberIn</div>
+			<div class="d-inline light">
+				เป็น Platform ใหม่ที่รวมเเหล่งกิจกรรมดี ๆ ที่จะทำให้คุณได้
+			</div>
+			<div class="d-inline medium text-red">กิน</div>
+			<div class="d-inline medium text-green">เที่ยว</div>
+			<div class="d-inline medium text-yellow">ช้อป</div>
+			<div class="d-inline light">ได้อย่างสะดวกสบายเเละทราบสิทธิพิเศษได้ทุกที่ทุกเวลา</div>
+			<div class="head-text-footer">
+				<div class="d-inline light">www.memberin.com</div>
+				<div class="d-inline light">
+					<img class=""src="assets/image/line.png">
+					@memberin
+				</div>
+				<div class="d-inline light">
+					<img class=""src="assets/image/phone.png">
+					02 235 8054
+				</div>
+			</div>
+			<div class="head-text-btnBuy ">
+				<img class="" src="assets/image/buy.png">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="content1">
+		<div class="content1-text">
+			<div class="regular">ประสบการณ์ดี ๆ จากลูกค้าที่เคยใช้</div>
+			<div class="bold text-green">MemberIn</div>
+		</div>
 
-<div class="content1">
+		<div class="content1-video">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-16by9" src="https://www.youtube.com/embed/ibavfrxEPs8?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="content1-imgPeploe">
+			<img class="" src="assets/image/pepole.png">
+		</div>
+	</div>
+</div>
+<!-- <div class="content1">
 	<img class="w-100 imgWellcome01" src="assets/image/02.png" alt="wellcome">
 	<img class="w-100 wellcome_sm" src="assets/image/wellcome_sm.jpg" alt="wellcome">
 	<div class="positionWellcome">
 		<div class="txt_wellcome text-justify">
 			<strong class="h1 text-shadow">MemberIn</strong><br>
-			เป็น Platform ใหม่ที่รวมเเหล่งกิจกรรมดี ๆ ที่จะทำให้คุณได้ 
+			เป็น Platform ใหม่ที่รวมเเหล่งกิจกรรมดี ๆ ที่จะทำให้คุณได้
 			<strong class="h3 text-red text-shadow">กิน</strong>
 			<strong class="h3 text-green text-shadow">เที่ยว</strong>
 			<strong class="h3 text-yellow text-shadow">ช้อป</strong>
@@ -41,13 +95,11 @@
 </div>
 <div class="content2">
 	<div class="row">
-		<!-- <img class="bg" src="assets/image/bg (1).png"> -->
 		<h2 class="ml-auto mr-auto">ประสบการณ์ดี ๆ จากลูกค้าที่เคยใช้ <strong class="text-green text-shadow">MemberIn</strong></h2>
 		<div class="col-lg-6 offset-lg-3">
 			<div class="embed-responsive embed-responsive-16by9 bg-shadow">
 				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ibavfrxEPs8?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
-			<!-- <img class="borderYoutube" src="assets/image/borderYoutube.png"> -->
 		</div>
 		<div class="peploe col-lg-4 offset-lg-7">
 			<img class="" src="assets/image/pepole.png">
@@ -155,14 +207,14 @@
 	</div>
 	<div class="row text-center">
 		<a href="#">
-			<img class="regiter" src="assets/image/regiter.png"><br>	
+			<img class="regiter" src="assets/image/regiter.png"><br>
 		</a>
 	</div>
 </div>
 
 <div class="backToTop text-right">
   <div class="container">
-      <h4 class="text-light" onclick="backToTop();">Back To Top 
+      <h4 class="text-light" onclick="backToTop();">Back To Top
         <i class="fas fa-chevron-circle-up fa-lg mt-1"></i>
       </h4>
   </div>
@@ -173,7 +225,6 @@
     <div class="row">
       <div class="col-lg-4 mb-5 mb-lg-0 ">
         <h4 class="text-uppercase mb-4 text-lg-left text-center ">เกี่ยวกับเรา</h4>
-        <!-- <p class="lead mb-0">blog</p> -->
         <div class="row">
           <a class="col-12 pl-lg-5 text-light" href="#">บล๊อก</a>
           <a class="col-12 pl-lg-5 text-light" href="/">เกี่ยวกับเรา</a>
@@ -195,15 +246,15 @@
         <div class="col-lg-4 mb-5 mb-lg-0 text-center">
         <h4 class="text-uppercase mb-4">ติดต่อเรา</h4>
         <div class="list-inline">
-            
+
           <img class="footerIconSocial mail mr-2 " src="assets/image/socials/006-mail.png">
-          <input type="text" class="form-control-sm form-rounded mt-3" disabled="disabled" 
+          <input type="text" class="form-control-sm form-rounded mt-3" disabled="disabled"
             value="bd@memnerin.com">
         </div>
         <div class="list-inline text-center mt-2">
-            
+
             <img class="footerIconSocial line mr-2" src="assets/image/socials/006-line.png">
-          <input type="text" class="form-control-sm form-rounded mt-3" disabled="disabled" 
+          <input type="text" class="form-control-sm form-rounded mt-3" disabled="disabled"
             value="@memberin">
         </div>
 
@@ -213,34 +264,25 @@
 
         <ul class="list-inline mb-0 mt-3 text-center">
           <li class="list-inline-item">
-            <!-- <img class="footerIconSocial facebook"  -->
-            <img class="footerIconSocial facebook" 
+            <img class="footerIconSocial facebook"
               src="assets/image/socials/004-facebook.png">
           </li>
           <li class="list-inline-item">
-            <!-- <img class="footerIconSocial youtube"  -->
-            <img class="footerIconSocial youtube" 
+            <img class="footerIconSocial youtube"
               src="assets/image/socials/003-youtube.png">
           </li>
-          <!-- <li class="list-inline-item">
-            <img class="footerIconSocial instagram" 
-              src="assets/image/socials/002-instagram.png">
-          </li>
-          <li class="list-inline-item">
-            <img class="footerIconSocial google" 
-              src="assets/image/socials/005-google-plus.png">
-          </li> -->
+
         </ul>
       </div>
     </div>
   </div>
-      
-</footer>  
+
+</footer> -->
 
 <script src="assets/jquery/jquery.min.js"></script>
 <script src="assets/bootstrap/bootstrap.min.js"></script>
 <script src="assets/custom/customIndex_controller.js"></script>
 
 </body>
-	
+
 </html>
