@@ -1,0 +1,55 @@
+@media only screen and (min-width: 0px) and (max-width: 970px){
+
+	/*head--------------------------*/
+
+	.head{
+		position: relative;
+		margin-bottom: var(--margin_sm);
+	}
+
+	.head-img {
+		/*height: 400px;*/
+	}
+
+	.head-qr {
+		width: 15%;
+		position: absolute;
+		top: 35%; 
+		right: 5%; 
+	}
+
+	.head-text {
+		width: 60%;
+		position: absolute;
+		top: 43%; 
+		left: 20%; 
+	}
+
+	.head-text > div:nth-child(1) { /*memberin*/
+		font-size: var(--sm-s1);
+		margin-bottom: var(--margin_sm);
+	}
+
+	.head-text > div:nth-child(n+2) { /*text*/
+		font-size: var(--sm-s3);
+	}
+
+	.head-text-footer {
+		margin-top: var(--margin_sm);
+		margin-bottom: var(--margin_sm);
+	}
+
+	.head-text-footer > div {
+		display: inline;
+		margin-right: 20px;
+		font-size: var(--sm-s6);
+	}
+	.head-text-footer > div > img {
+		width: 3%;
+	}
+	.head-text-btnBuy {
+		width: 25%;
+	}
+	/*end-head--------------------------*/
+
+}
