@@ -207,33 +207,35 @@
           </div>
         </div>
         <div class="footer-col">
-        <div class="footer-col-contactHead regular">ติดต่อเรา</div>
-        <div class="footer-col-contactBox">
-        	<div class="footer-col-contactBox-imgSocial">
-        		<img class="" src="assets/image/socials/006-mail.png">
-        	</div>
-        	<div class="footer-col-contactBox-textSocial bg-yellow light">bd@memnerin.com</div>
-        </div>
-        <div class="footer-col-contactBox">
-        	<div class="footer-col-contactBox-imgSocial">
-        		 <img class="" src="assets/image/socials/006-line.png">
-        	</div>
-    		<div class="footer-col-contactBox-textSocial bg-yellow light">@memberin</div>
-        </div>
-        <div class="footer-col-row-contactQrRow">
-        	<div class="footer-col-row-contactQrRow-imgQrCode">
-        		<img class="qr_code" src="assets/image/QR_Code MemberIn.jpg">
-        	</div>
-        </div>
-        <div class="footer-col-row-contactOther">
-	        <div class="footer-col-col-contactOther-imgSocial">
-	            <img class="facebook" src="assets/image/socials/004-facebook.png">
+	        <div class="footer-col-contactHead regular">ติดต่อเรา</div>
+	        <div class="footer-col-contactBox">
+	        	<div class="footer-col-contactBox-imgSocial mail">
+	        		<img class="" src="assets/image/footer/mail.png">
+	        	</div>
+	        	<div class="footer-col-contactBox-textSocial light">bd@memnerin.com</div>
 	        </div>
-	        <div class="footer-col-col-contactOther-imgSocial">
-	            <img class="youtube" src="assets/image/socials/003-youtube.png">
+	        <div class="footer-col-contactBox">
+	        	<div class="footer-col-contactBox-imgSocial line">
+	        		 <img class="" src="assets/image/footer/line.png">
+	        	</div>
+	    		<div class="footer-col-contactBox-textSocial light">@memberin</div>
 	        </div>
-        </div>
-      </div>
+	        <div class="footer-col-row-contactQrRow">
+	        	<div class="footer-col-row-contactQrRow-imgQrCode">
+	        		<img class="qr_code" src="assets/image/QR_Code MemberIn.jpg">
+	        	</div>
+	        </div>
+	        <div class="footer-col-row-contactOther">
+		        <div class="footer-col-col-contactOther-imgSocial">
+		            <!-- <img class="facebook" src="assets/image/socials/004-facebook.png"> -->
+		            <img class="facebook" src="assets/image/footer/fb.png">
+		        </div>
+		        <div class="footer-col-col-contactOther-imgSocial">
+		            <!-- <img class="youtube" src="assets/image/socials/003-youtube.png"> -->
+		            <img class="youtube" src="assets/image/footer/youtube.png">
+		        </div>
+	        </div>
+      	</div>
     </div>
   </div>
 </footer>

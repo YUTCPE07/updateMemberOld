@@ -1,6 +1,7 @@
 footer {
 	background-color: #424242;
-	padding-top: 40px; 
+	padding-top: 40px;
+	 
 }
 
 .footer-row {
@@ -15,6 +16,7 @@ footer {
 
 .footer-row :last-child {
 	display: grid;
+	grid-row-gap: 10px;
 }
 
 .footer-col-row {
@@ -22,44 +24,53 @@ footer {
 }
 
 .footer-col-col {
+	color: white;
 	margin-left: 50px;
 }
 
 .footer-col-head {
+	color: white;
+	margin-bottom: var(--margin_lg);
 	font-size: var(--lg-s7);
 }
 
 .footer-col-contactHead {
+	color: white;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: var(--lg-s6);
 }
 
 .footer-col-contactBox {
-	display: inline-block;
-	/*grid-template-columns: 100%;*/
+	position: relative;
+
 }
 
 .footer-col-contactBox-imgSocial {
+	position: absolute;
+	left: 20px;
 	width: 45px;
-	height: 45px;
-	background: blue;
-	display: inline;
 }
 
 .footer-col-contactBox-textSocial {
+
+	margin-top: 5px;
 	padding: 1px 20px 1px;
 	display: inline;
 	border-radius: 3rem;
 	background: white;
+	line-height: 2;
+	margin-right: auto;
+	margin-left: 45px;
+	padding-left: 25px;
 	font-size: var(--lg-s7);
+
 }
 
 .footer-col-row-contactQrRow-imgQrCode {
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
-	margin-bottom: var(--margin-lg);
+	width: 25%;
 }
 
 .footer-col-row-contactOther {
@@ -67,13 +78,29 @@ footer {
 	grid-template-columns: 50% 50%;
 	margin-left: 25%;
 	margin-right: 25%;
-	background-color: blue;
 }
 
 .footer-col-col-contactOther-imgSocial {
-	background-color: yellow;
 	margin-left: auto;
 	margin-right: auto;
-	width: 45px;
-	height: 45px;
+	width: 60px;
+	height: 60px;
 }
+
+/* fb youtube Redey
+	.footer-col-row-contactOther {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		background-color: blue;
+	}
+
+	.footer-col-col-contactOther-imgSocial {
+		background-color: yellow;
+		margin-left: auto;
+		margin-right: auto;
+		width: 45px;
+		height: 45px;
+	}
+*/
