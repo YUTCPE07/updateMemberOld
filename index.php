@@ -31,11 +31,14 @@
 		<div class="head-img">
 			<img src="assets/image/02.png" >
 		</div>
+		<div class="head-imgSm">
+			<img src="assets/image/wellcome_sm.jpg" >
+		</div>
 		<div class="head-qr">
 			<img src="assets/image/QR_Code MemberIn.jpg" >
 		</div>
-		<div class="head-text">
-			<div class="medium">MemberIn</div>
+		<div class="head-text text-justify">
+			<div class="medium text-black">MemberIn</div>
 			<div class="d-inline light">
 				เป็น Platform ใหม่ที่รวมเเหล่งกิจกรรมดี ๆ ที่จะทำให้คุณได้
 			</div>
@@ -54,7 +57,7 @@
 					02 235 8054
 				</div>
 			</div>
-			<div class="head-text-btnBuy ">
+			<div class="head-text-btnBuy this_link">
 				<img class="" src="assets/image/buy.png">
 			</div>
 		</div>
@@ -63,7 +66,7 @@
 <div class="container">
 	<div class="content1">
 		<div class="content1-text">
-			<div class="regular">ประสบการณ์ดี ๆ จากลูกค้าที่เคยใช้</div>
+			<div class="regular text-black">ประสบการณ์ดี ๆ จากลูกค้าที่เคยใช้</div>
 			<div class="bold text-green">MemberIn</div>
 		</div>
 
@@ -133,7 +136,7 @@
 </div>
 <div class="container">
 	<div class="content3">
-		<div class="content3-row">
+		<div class="content3-row text-green">
 			<div class="content3-col">
 				<div class="content3-col-headtext bold">วิธีลงทะเบียน</div>
 			</div>
@@ -142,9 +145,9 @@
 					<img src="assets/image/button (1).png">
 				</div>
 				<div class="content3-col-text regular">ดาวโหลด MemberIn ผ่าน</div>
-				<img class="content3-col-text-imgStore appleStore" src="assets/image/appleStore.png">
+				<img class="content3-col-text-imgStore appleStore this_link" src="assets/image/appleStore.png">
 				<div class="content3-col-text regular">หรือ</div>
-				<img class="content3-col-text-imgStore googlePlay" src="assets/image/googlePlay.png">
+				<img class="content3-col-text-imgStore googlePlay this_link" src="assets/image/googlePlay.png">
 			</div>
 			<div class="content3-col">
 				<div class="content3-col-imgNumLine">
@@ -171,7 +174,7 @@
 				</div>
 			</div>
 			<div class="content3-col">
-				<div class="content3-col-btnRegister">
+				<div class="content3-col-btnRegister this_link">
 					<img class="regiter" src="assets/image/regiter.png">
 				</div>
 			</div>
@@ -185,59 +188,80 @@
 	</div>
 </div>
 
-<footer>
+<!-- <div class="backToTop">
   <div class="container">
-    <div class="footer-row">
-      	<div class="footer-col">
-	        <div class="footer-col-head regular">เกี่ยวกับเรา</div>
-	        <div class="footer-col-row">
-	          <a class="footer-col-col light" href="#">บล๊อก</a>
-	          <a class="footer-col-col light" href="#">เกี่ยวกับเรา</a>
-	          <a class="footer-col-col light" href="#">ที่อยู่</a>
-	          <a class="footer-col-col light" href="#">นโยบายความเป็นส่วนตัวและความปลอดภัย</a>
-	          <a class="footer-col-col light" href="#">ข้อตกลงของผู้ใช้งาน</a>
-	        </div>
-      	</div>
-        <div class="footer-col">
-          <div class="footer-col-head regular">ร่วมธุรกิจกับเรา</div>
-          <div class="footer-col-row">
-            <a class="footer-col-col light" href="#">ร่วมธุรกิจกับเรา</a>
-            <a class="footer-col-col light" href="#">พาร์ทเน้อเรา</a>
-            <a class="footer-col-col light" href="#">ร่วมงานกับเรา</a>
-          </div>
-        </div>
-        <div class="footer-col">
-	        <div class="footer-col-contactHead regular">ติดต่อเรา</div>
-	        <div class="footer-col-contactBox">
-	        	<div class="footer-col-contactBox-imgSocial mail">
-	        		<img class="" src="assets/image/footer/mail.png">
-	        	</div>
-	        	<div class="footer-col-contactBox-textSocial light">bd@memnerin.com</div>
-	        </div>
-	        <div class="footer-col-contactBox">
-	        	<div class="footer-col-contactBox-imgSocial line">
-	        		 <img class="" src="assets/image/footer/line.png">
-	        	</div>
-	    		<div class="footer-col-contactBox-textSocial light">@memberin</div>
-	        </div>
-	        <div class="footer-col-row-contactQrRow">
-	        	<div class="footer-col-row-contactQrRow-imgQrCode">
-	        		<img class="qr_code" src="assets/image/QR_Code MemberIn.jpg">
-	        	</div>
-	        </div>
-	        <div class="footer-col-row-contactOther">
-		        <div class="footer-col-col-contactOther-imgSocial">
-		            <!-- <img class="facebook" src="assets/image/socials/004-facebook.png"> -->
-		            <img class="facebook" src="assets/image/footer/fb.png">
-		        </div>
-		        <div class="footer-col-col-contactOther-imgSocial">
-		            <!-- <img class="youtube" src="assets/image/socials/003-youtube.png"> -->
-		            <img class="youtube" src="assets/image/footer/youtube.png">
-		        </div>
-	        </div>
-      	</div>
-    </div>
+      <h4 class="text-light" onclick="backToTop();">Back To Top
+        <i class="fas fa-chevron-circle-up fa-lg mt-1"></i>
+      </h4>
   </div>
+</div> -->
+
+<footer>
+	<div class="lineBackToTop bg-red">
+		<div class="container">
+			<div class="lineBackToTop-box " onclick="backToTop();">
+				<div class="lineBackToTop-box-text text-white" >Back To Top</div>
+				<div class="lineBackToTop-box-img" >
+					<img src="assets/image/footer/arrow-up.png">
+				</div>
+			</div>
+		</div>
+	</div>
+
+  	<div class="footer">
+  		<div class="container">
+		    <div class="footer-row">
+		      	<div class="footer-col">
+			        <div class="footer-col-head regular">เกี่ยวกับเรา</div>
+			        <div class="footer-col-row">
+			          <a class="footer-col-col light" href="#">บล๊อก</a>
+			          <a class="footer-col-col light" href="#">เกี่ยวกับเรา</a>
+			          <a class="footer-col-col light" href="#">ที่อยู่</a>
+			          <a class="footer-col-col light" href="#">นโยบายความเป็นส่วนตัวและความปลอดภัย</a>
+			          <a class="footer-col-col light" href="#">ข้อตกลงของผู้ใช้งาน</a>
+			        </div>
+		      	</div>
+		        <div class="footer-col">
+		          <div class="footer-col-head regular">ร่วมธุรกิจกับเรา</div>
+		          <div class="footer-col-row">
+		            <a class="footer-col-col light" href="#">ร่วมธุรกิจกับเรา</a>
+		            <a class="footer-col-col light" href="#">พาร์ทเน้อเรา</a>
+		            <a class="footer-col-col light" href="#">ร่วมงานกับเรา</a>
+		          </div>
+		        </div>
+		        <div class="footer-col">
+			        <div class="footer-col-contactHead regular">ติดต่อเรา</div>
+			        <div class="footer-col-contactBox">
+			        	<div class="footer-col-contactBox-imgSocial mail">
+			        		<img class="" src="assets/image/footer/mail.png">
+			        	</div>
+			        	<div class="footer-col-contactBox-textSocial light">bd@memnerin.com</div>
+			        </div>
+			        <div class="footer-col-contactBox">
+			        	<div class="footer-col-contactBox-imgSocial line">
+			        		 <img class="" src="assets/image/footer/line.png">
+			        	</div>
+			    		<div class="footer-col-contactBox-textSocial light">@memberin</div>
+			        </div>
+			        <div class="footer-col-row-contactQrRow">
+			        	<div class="footer-col-row-contactQrRow-imgQrCode">
+			        		<img class="qr_code" src="assets/image/QR_Code MemberIn.jpg">
+			        	</div>
+			        </div>
+			        <div class="footer-col-row-contactOther">
+				        <div class="footer-col-col-contactOther-imgSocial">
+				            <!-- <img class="facebook" src="assets/image/socials/004-facebook.png"> -->
+				            <img class="facebook" src="assets/image/footer/fb.png">
+				        </div>
+				        <div class="footer-col-col-contactOther-imgSocial">
+				            <!-- <img class="youtube" src="assets/image/socials/003-youtube.png"> -->
+				            <img class="youtube" src="assets/image/footer/youtube.png">
+				        </div>
+			        </div>
+		      	</div>
+		    </div>
+	  	</div>
+  	</div>
 </footer>
 
 

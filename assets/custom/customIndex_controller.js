@@ -43,10 +43,6 @@ $(".footerIconSocial.google").click(function(){
 	console.log('google')
 });
 
-
-
-
-
 function backToTop(){
 	$('html, body').animate({scrollTop:0}, 2000);
 	
