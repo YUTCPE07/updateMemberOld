@@ -8,20 +8,20 @@
   --color-gray1: #6d6e71; /*เทา เข้ม*/
   --margin_sm: 10px;
   --margin_lg: 20px;
-  --lg-s1: 48px; /*62px;*/
-  --lg-s2: 41px; /*48px;*/
-  --lg-s3: 34px; /*41px;*/
-  --lg-s4: 28px; /*36px;*/
-  --lg-s5: 26px; /*28px;*/
-  --lg-s6: 20px; /*27px;*/
-  --lg-s7: 18px; /*24px;*/
-  --sm-s1: 20.66666666666667px;
-  --sm-s2: 16px;
-  --sm-s3: 13.66666666666667px;
-  --sm-s4: 12px;
-  --sm-s5: 9.333333333333333px;
-  --sm-s6: 9px;
-  --sm-s7: 9px;
+  --lg-s1: 48px; 
+  --lg-s2: 41px; 
+  --lg-s3: 36px; 
+  --lg-s4: 21px; 
+  --lg-s5: 16px; 
+  --lg-s6: 14px;
+   
+  --sm-s1: 24px;
+  --sm-s2: 21px;
+  --sm-s3: 17px;
+  --sm-s4: 15px;
+  --sm-s5: 13px;
+  --sm-s6: 10px;
+
 }
 
 /*body {
