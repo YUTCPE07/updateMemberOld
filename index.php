@@ -92,7 +92,7 @@
 				<div class="content2-img">
 					<img src="assets/image/icon (4).png">
 				</div>
-				<div class="content2-input1 bg-yellow medium">ไม่ต้องดาวน์โหลดหลายเอพฯ</div>
+				<div class="content2-input1 bg-yellow medium">ไม่ต้องดาวน์โหลดหลายเเอพฯ</div>
 				<div class="content2-input2">ให้รกหน้าจอ</div>
 			</div>
 			<div class="content2-col">
@@ -144,7 +144,7 @@
 				<div class="content3-col-imgNumLine">
 					<img src="assets/image/button (1).png">
 				</div>
-				<div class="content3-col-text regular">ดาวโหลด MemberIn ผ่าน</div>
+				<div class="content3-col-text regular">ดาวน์โหลด MemberIn ผ่าน</div>
 				<img class="content3-col-text-imgStore appleStore this_link" src="assets/image/appleStore.png">
 				<div class="content3-col-text regular">หรือ</div>
 				<img class="content3-col-text-imgStore googlePlay this_link" src="assets/image/googlePlay.png">
@@ -170,7 +170,7 @@
 					<img src="assets/image/button (4).png">
 				</div>
 				<div class="content3-col-text regular">
-					เพลิดเพลินกับสิทธฺต่างๆ มากมายไปกับ MemberIn
+					เพลิดเพลินกับสิทธิต่างๆ มากมายไปกับ MemberIn
 				</div>
 			</div>
 			<div class="content3-col">
@@ -213,7 +213,7 @@
 			          		นโยบายความเป็นส่วนตัวและความปลอดภัย
 			          	</a>
 			          	<a class="footer-col-col light" href="https://www.memberin.com/termsofuse.php">
-			          		ข้อตกลงของผู้ใช้งาน
+			          		ข้อตกลงและเงื่อนไขของผู้ใช้งาน
 			          	</a>
 			          	<a class="footer-col-col light" href="https://www.memberin.com/contact.php">
 			          		ติดต่อเรา
