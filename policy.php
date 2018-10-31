@@ -19,8 +19,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/custom/varible.css">
 	<link rel="stylesheet" type="text/css" href="assets/css_page/policy.css">
 
-<div class="container mt-5 mb-3 h5 light">
-	<div class="content1 pb-3 h2 medium text-blue text-center">นโยบายความเป็นส่วนตัวและความปลอดภัย</div>
+<div class=" mt-5 mb-3 h4 light text-gray1">
+	<div class="content1 pb-3 h3 medium text-blue text-center">นโยบายความเป็นส่วนตัวและความปลอดภัย</div>
 
 	<div class="content2 pb-3 text-justify">
 		<div class="d-inline medium text-blue"> เมมเบอร์อิน </div>
@@ -100,19 +100,7 @@
 		เมมเบอร์อิน อาจทำการปรับปรุงหรือแก้ไขนโยบายความเป็นส่วนตัวได้โดยไม่ต้องแจ้งให้ทราบล่วงหน้า ทั้งนี้ เพื่อความเหมาะสมและมีประสิทธิภาพในการให้บริการ ด้วยเหตุนี้ เมมเบอร์อิน จึงขอแนะนำให้ผู้ใช้งานอ่านนโยบายความเป็นส่วนตัวทุกครั้งที่เข้าชมหรือใช้ จากเว็บไซต์หรือแอปพริเคชั่น
 	</div>
 
-
 </div>
-
-
-
-
-
-
-
-
-
-
-</body>
 
 <script src="assets/jquery/jquery.min.js"></script>
 <script src="assets/bootstrap/bootstrap.min.js"></script>
