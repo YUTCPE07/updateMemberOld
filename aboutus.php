@@ -21,12 +21,12 @@
 
 	<div class="content1 text-justify pt-5 ">
 		<div class="container">
-			<div class="h2 medium text-black pb-3">เกี่ยวกับเรา</div>
-			<div class="d-inline h4 medium text-green">MemberIn</div>
+			<div class="h2 medium text-blue pb-3">เกี่ยวกับเรา</div>
+			<div class="d-inline h4 medium text-blue">MemberIn</div>
 			<div class="d-inline h4 light">เป็น Plateform ที่รวมแหล่งกิจกรรมดี ๆ ที่ทำให้คุณ</div>
-			<div class="d-inline h4 medium text-red">กิน</div>
-			<div class="d-inline h4 medium text-green">เที่ยว</div>
-			<div class="d-inline h4 medium text-yellow">ช้อป</div>
+			<div class="d-inline h4 light">กิน</div>
+			<div class="d-inline h4 light">เที่ยว</div>
+			<div class="d-inline h4 light">ช้อป</div>
 			<div class="d-inline h4 light">
 				ได้อย่างสะดวกสบาย และทราบข่าวสารสิทธิพิเศษ ได้ทุกที่ ทุกเวลา บนระบบที่มีมาตรฐานความปลอดภัย https ระดับสากล แบบเดียวกับ Lazada , Agoda และอื่น ๆ มีระบบการจ่ายชำระมาตรฐานเดียวกับระบบธนาคาร
 			</div>
@@ -34,7 +34,7 @@
 	</div>
 
 	<div class="container">
-		<div class="content2 h4 text-black pt-3">กิจกรรมดี ๆ  ในหลากหลายหมวดหมู่ ที่มีให้คุณเลือก</div>
+		<div class="content2 h4 text-blue pt-3">กิจกรรมดี ๆ  ในหลากหลายหมวดหมู่ ที่มีให้คุณเลือก</div>
 	</div>
 
 	<div class="content3 pt-3 light ">
@@ -56,11 +56,11 @@
 
 	<div class="content4 pt-3 light">
 		<div class="container">
-			<div class="h4 d-inline medium text-green pt-3">MemberIn</div>
+			<div class="h4 d-inline medium text-blue pt-3">MemberIn</div>
 			<div class="h4 d-inline">เสนอกิจกรรมดี ๆ ผ่าน 2 ช่องทาง</div>
-			<div class="h4 d-inline text-black">Website</div>
+			<div class="h4 d-inline text-blue">Website</div>
 			<div class="h4 d-inline">,</div>
-			<div class="h4 d-inline text-black">Mobile Application</div>
+			<div class="h4 d-inline text-blue">Mobile Application</div>
 			<div class="h4 d-inline">ให้แก่ ลูกค้าด้วย 3 วิธีใช้ แบบง่าย ๆ</div>
 
 			<div class="h4">1.	SHOPPING ONLINE  เรามอบสิทธิพิเศษในการซื้อสินค้า และการบริการที่หลากหลายได้ง่ายๆ เพียงปลายนิ้ว</div>
@@ -71,7 +71,7 @@
 
 
 	<div class="content5 pt-5 pb-5 ">
-		<div class="h4 text-black medium pb-5">Experience ประสบการณ์ดีๆ จากลูกค้าที่เคยใช้ MemberIn </div>
+		<div class="h4 text-blue medium pb-5">Experience ประสบการณ์ดีๆ จากลูกค้าที่เคยใช้ MemberIn </div>
 		<div class="content5-video">
 			<div class="embed-responsive embed-responsive-16by9">
 				<iframe class="embed-responsive-16by9" src="https://www.youtube.com/embed/ibavfrxEPs8?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -81,7 +81,7 @@
 
 	<div class="content6 light text-gray1">
 		<div class="container">
-			<div class="h4 text-black medium">ทำไมคุณต้องใช้ MemberIn</div>
+			<div class="h4 text-blue medium">ทำไมคุณต้องใช้ MemberIn</div>
 			<div class="h4">1.	ไม่พลาดกิจกรรมดี ๆ  โปรโมชั่นเด็ดๆ ที่คุณสนใจอยู่</div>
 			<div class="h4">2.	ใช้งานได้ทุกที่ทุกเวลาเพียงแค่กด โชว์ หรือ สแกน</div>
 			<div class="h4">3.	ง่ายและปลอดภัยในการชำระเงินออนไลน์</div>
@@ -92,7 +92,7 @@
 
 	<div class="content7 light text-gray1 pt-5">
 		<div class="container">
-			<div class="h4 text-black medium">เริ่มได้เลยเพียง</div>
+			<div class="h4 text-blue medium">เริ่มได้เลยเพียง</div>
 			<div class="h4 d-inline">1.	เข้า www.memberin.com หรือ ดาวน์โหลด MembeIn ผ่าน</div>
 				<img class="content7 appleStore d-inline this_link" src="assets/image/appleStore.png">
 				<div class="content7 regular d-inline">หรือ</div>
@@ -105,7 +105,7 @@
 
 	<div class="content8">
 		<div class="container">
-			<div class="h4 text-black medium pt-3 pb-3">เตรียมพบกับกิจกรรมต่าง ๆ ในมือคุณได้แล้ว อย่ารอช้า</div><br><br>
+			<div class="h4 text-blue medium pt-3 pb-3">เตรียมพบกับกิจกรรมต่าง ๆ ในมือคุณได้แล้ว อย่ารอช้า</div><br><br>
 		</div>
 	</div>
 

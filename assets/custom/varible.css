@@ -1,27 +1,27 @@
 :root {
-  --color-green: #4ab2a5;
-  --color-yellow: #ffb739;
-  --color-red: #ed1c24;
-  --color-black: #231f20;
-  --color-gray3: #f1f2f2; /*เทา อ่อน*/
-  --color-gray2: #bcbec0; /*เทา กลาง*/
-  --color-gray1: #6d6e71; /*เทา เข้ม*/
-  --margin_sm: 10px;
-  --margin_lg: 20px;
-  --lg-s1: 48px; 
-  --lg-s2: 41px; 
-  --lg-s3: 36px; 
-  --lg-s4: 21px; 
-  --lg-s5: 16px; 
-  --lg-s6: 14px;
+	--color-blue:#4682B4; /*memberIn Old*/
+  	--color-green: #4ab2a5;
+  	--color-yellow: #ffb739;
+  	--color-red: #ed1c24;
+  	--color-black: #231f20;
+  	--color-gray3: #f1f2f2; /*เทา อ่อน*/
+  	--color-gray2: #bcbec0; /*เทา กลาง*/
+  	--color-gray1: #6d6e71; /*เทา เข้ม*/
+  	--margin_sm: 10px;
+  	--margin_lg: 20px;
+  	--lg-s1: 48px; 
+  	--lg-s2: 41px; 
+  	--lg-s3: 36px; 
+  	--lg-s4: 21px; 
+  	--lg-s5: 16px; 
+  	--lg-s6: 14px;
    
-  --sm-s1: 24px;
-  --sm-s2: 21px;
-  --sm-s3: 17px;
-  --sm-s4: 15px;
-  --sm-s5: 13px;
-  --sm-s6: 10px;
-
+  	--sm-s1: 24px;
+  	--sm-s2: 21px;
+ 	--sm-s3: 17px;
+  	--sm-s4: 15px;
+  	--sm-s5: 13px;
+  	--sm-s6: 10px;
 }
 
 /*body {
@@ -89,6 +89,10 @@ img,iframe {
 	color:var(--color-gray1);
 }
 
+.text-blue {
+	color:var(--color-blue);
+}
+
 .bg-green {
 	background-color: var(--color-green);
 }
@@ -142,7 +146,10 @@ img,iframe {
 
 
 /*bootstarp custom-------------------------------------------*/
-	
+	.text-center {
+		text-align: center;
+	}
+
 	.text-justify {
 	  	text-align: justify;
 	}
