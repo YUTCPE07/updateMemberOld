@@ -1,0 +1,28 @@
+
+
+.tableRows {
+	display: grid;
+	grid-template-columns: auto auto ;
+}
+
+.pp-s1 {
+	font-size: 62px;
+}
+.pp-s2 {
+	font-size: 48px;
+}
+.pp-s3 {
+	font-size: 41px;
+}
+.pp-s4 {
+	font-size: 36px;
+}
+.pp-s5 {
+	font-size: 28px;
+}
+.pp-s6 {
+	font-size: 27px;
+}
+.pp-s7 {
+	font-size: 24px;
+}
